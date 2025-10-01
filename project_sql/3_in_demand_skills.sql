@@ -25,18 +25,13 @@ ORDER BY
 LIMIT 5;
 
 /*-- Analysis:
-. Core Technical Skills (The Must-Haves)
-- SQL is King: SQL is the single most in-demand skill, making proficiency in advanced querying
-non-negotiable.
+.- SQL dominates the market, making it the most critical skill for Data Analysts in Germany.
 
-- Python is Essential: Python is the second-most requested skill, cementing its role as
- the primary programming language for data manipulation and analysis.
+- Python is highly sought after, reflecting the strong demand for programming and advanced 
+analytics capabilities.
 
--Visualization is Key: Both Tableau and Power BI are in the top five, emphasizing the need to 
-create compelling, professional data visualizations.
-
--Excel Matters: Excel still ranks highly, indicating that strong spreadsheet and data handling
- skills are required for day-to-day tasks.
+- Visualization & reporting tools (Tableau, Excel, Power BI) are nearly equal in demand,
+ showing how important it is for analysts to communicate insights effectively..
 
 [
   {

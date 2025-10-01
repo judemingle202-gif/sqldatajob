@@ -33,17 +33,24 @@ SELECT
     skills_dim.skills AS skill_required
 FROM
     top_paying_jobs
-INNER JOIN skills_job_dim ON skills_job_dim.job_id = top_paying_jobs.job_id
-INNER JOIN skills_dim ON skills_dim.skill_id = skills_job_dim.skill_id
-ORDER BY top_paying_jobs.salary_year_avg DESC;
+INNER JOIN 
+  skills_job_dim ON skills_job_dim.job_id = top_paying_jobs.job_id
+INNER JOIN 
+  skills_dim ON skills_dim.skill_id = skills_job_dim.skill_id
+ORDER BY 
+  top_paying_jobs.salary_year_avg DESC;
 
 /*-- Analysis:
-While SQL is universally important and Python is the single most 
-requested programming language, the specialization in cities like 
-Munich and Renningen suggests that an ideal candidate for the German
- market should aim to demonstrate familiarity with cloud computing and 
- Big Data tools (like Spark or BigQuery) alongside core analytical skills.
+- Research roles (Bosch) lead the salary charts (~€200K), with strong demand for
+ Spark and GitHub skills.
 
+- Leadership positions (Head of Data Analytics) require a broad mix of skills
+ — Python, SQL, Cloud platforms (GCP, Redshift, BigQuery), and BI tools 
+ (Tableau, Looker, Power BI).
+
+- Analyst & Architect roles emphasize foundational skills (SQL, Python, R) 
+combined with data visualization and business tools (Excel, Tableau, Pandas)
+ to remain competitive.
  [
   {
     "job_id": 1202839,

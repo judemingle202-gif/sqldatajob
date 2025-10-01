@@ -26,15 +26,14 @@ ORDER BY
 LIMIT 25;
 
 /*-- Analysis:
---Engineering Pays the Premium: The highest salaries (around €166k) are 
-commanded by specialized Data Engineering, DevOps, and Cloud Infrastructure 
-skills like Kafka, Terraform, BigQuery, and Redshift.
+- Top-tier salaries (~€166K) are linked to cloud, database, and
+ infrastructure tools (Kafka, BigQuery, NoSQL, Redshift, Terraform).
 
---Cloud Competence is a Differentiator: Expertise in major cloud platforms and 
-their tools (e.g., GCP, BigQuery) drives a significant salary bump, separating 
-high-earning analysts who can manage infrastructure from those who only analyze data.
+- Big data & distributed computing skills (Spark, Databricks, PySpark,
+ GCP) form the second-highest salary group (€120K–€138K).
 
--- Core Skills are Foundation, Not Top Salary Drivers: While foundational skills like SQL,
- Python, and Power BI are essential to getting hired (they are the most demanded), they 
- appear further down the high-salary list.
+- Programming & analytics staples (Python, Pandas, NumPy, Git) and
+ BI tools (Power BI) remain valuable, but average salaries are closer
+  to €100K, showing less premium compared to cloud/data engineering 
+  skills.
 */

@@ -24,3 +24,13 @@ ORDER BY
     salary_year_avg DESC
 LIMIT 10;
 
+/*--Analysis:
+Bosch Group dominates the top tier, with Research Engineer roles offering salaries
+ near €200,000, the highest in the dataset.
+
+Leadership roles like Head of Data Analytics (Volt.io, PPRO) and specialized positions like 
+Data Architect also rank high, averaging €165,000–166,000.
+
+Standard Data Analyst roles (Flink, Experian, Bosch eBike Systems) average around €111,000, 
+showing a clear gap compared to research and leadership positions.
+*/

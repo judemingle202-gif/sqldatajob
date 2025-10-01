@@ -57,16 +57,13 @@ ORDER BY
 LIMIT 25;
 
 /*-- Analysis:
--- Engineering Pays the Premium: The highest salaries (up to €166k for roles mentioning
- BigQuery and Spark) are paid for specialized Data Engineering and Cloud skills. 
- To maximize your earning potential, focus your upskilling on tools that manage data
-  infrastructure.
+- High-demand core skills: SQL and Python dominate with 2,000+ job postings 
+each, making them essential for job security.
 
--- Python is the Sweet Spot: Python offers the best balance, featuring high demand
-(second overall) and a strong average salary (~€105k). Mastering Python is the most valuable
- step for securing a high-quality role.
+- Big data & cloud = top salaries: Specialized tools like BigQuery (€166K), 
+Spark (€138K), and Databricks (€111K) deliver the highest pay despite lower demand.
 
-Core Skills are the Foundation: SQL (highest demand) and visualization tools like 
-Tableau and Power BI are essential to securing an interview, but their average salaries
- (below €98k) show they are the baseline requirement, not the final salary driver.
+- Balanced toolkit matters: Combining core analytics (SQL, Python) with 
+visualization (Tableau, Power BI) and cloud/big data expertise offers the best
+ career ROI in Germany.
 */
